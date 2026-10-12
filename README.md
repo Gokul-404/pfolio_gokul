@@ -23,5 +23,11 @@ git commit -m "Update portfolio"
 git push
 ```
 
+## Live Site
+- **Production URL**: [https://gokul-portfolio-lac.vercel.app](https://gokul-portfolio-lac.vercel.app)
+
 ## Deploy on Vercel
-Import the repo. Framework preset: Other. No build command, output directory left empty (root).
+The repository is linked to Vercel. Pushing to `main` automatically triggers deployments, or deploy manually using:
+```bash
+vercel --prod
+```
